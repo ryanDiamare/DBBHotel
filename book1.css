@@ -1,0 +1,54 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+.hero{
+height:100%;
+width: 100%;
+background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(images/DBBlogo1.png);
+background position: center;
+background-size: cover;
+position: absolute;
+}
+.form-box{
+width: 500px;
+height:600px;
+background: linear-gradient(to left, #ff105f,#ffad06);
+position:relative;
+margin: 20px auto;
+padding :5px;
+overflow:hidden;
+border:solid black; 
+}
+.input-group{
+	display:inline-block;
+	top:100px;
+	width:500px;
+	position:absolute;
+	transition: .5s;
+}
+.input-field{
+	width: 279px;
+	display:inline-block;
+	padding: 10px 0;
+	margin: 5px auto;
+	border-top: 0;
+	border-left: 0;
+	border-right: 0;
+	border-bottom: 1px solid black;
+	outline:none;
+	background:white;
+}
+.submit-btn{
+	width:85%;
+	padding: 10px 30px;
+	cursor:pointer;
+	display:block;
+	margin:auto;
+	background: linear-gradient(to right, #ff105f,#ffad06);
+	border: 0;
+	outline:none;
+	border-radius:30px;
+}
+
