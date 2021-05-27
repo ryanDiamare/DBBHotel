@@ -1,0 +1,66 @@
+<html>
+<head>
+ <title> Login</title>
+ <link rel="stylesheet" href="style1.css">
+ </head>
+ <body>
+  		<div class="hero"> 
+  		 
+ 				<div class="form-box"> 
+ 					<div class="button-box"> 
+ 						<div id="btn"></div>
+ 						<button type="button" class="toogle-btn" onclick="login()"> Log In</button>
+ 						<button type="button" class="toogle-btn" onclick="register()"> Register</button>
+ 				</div>
+ 				<div class="social-icons">
+ 					<img src="images/facebook.png">
+ 					<img src="images/twitter.png">
+ 					<img src="images/instagram.png">
+ 				</div>
+
+ 					<form method="POST"  id="login" class="input-group">
+ 						 <input type="email" name="email" class="input-field" placeholder="Email" id="Username" name ="email" required  />
+ 						<input type="password" name="password" class="input-field" placeholder="Enter Password" id="Enter_Password" name="password" required/>
+ 						<input type="checkbox" class="check-box"><span>Remember Password</span>
+ 						<button type="submit" class="submit-btn"> <a href="try.html">LOG IN</button></a>  
+ 						</input> 
+ 					</form>
+ 					<form method="POST" action="" id="register" class="input-group" >
+ 						<input typ="text"  name="name" class="input-field" placeholder="Name" name="name"  required/>
+ 						<input typ="email" name="email"  class="input-field" placeholder="Username" name="email" required/>
+ 						<input typ="password" name="password" class="input-field" placeholder="Enter Password" name="password" required/>
+ 						<input type="checkbox" class="check-box"><span>I agree to the terms and conditions.</span>
+
+ 						<button type="submit" class="submit-btn"> <a href="try.html">REGISTER</button></a>  
+ 						</input>
+ 					</form>
+
+ 				</div>
+
+
+
+ 		</div>
+ 		</div>
+ 	
+
+<script>
+var x = document.getElementById("login");
+var y = document.getElementById("register");
+var z = document.getElementById("btn");
+
+function register(){
+	x.style.left="-400px";
+	y.style.left="50px";
+	z.style.left="110px";
+}
+function login(){
+	x.style.left="50px";
+	y.style.left="450px";
+	z.style.left="0px";
+}
+</script>
+
+
+
+ </body>
+ </head>
